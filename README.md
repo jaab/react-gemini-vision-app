@@ -13,8 +13,11 @@ Clear and Re-upload: Users can clear the current image and upload a new one for 
 To run this project, you'll need the following software installed on your machine:
 
 Node.js (v14 or later)
+
 npm (v6 or later)
+
 Git (for version control)
+
 Google API Key (for accessing Google Generative AI) : https://aistudio.google.com/app/apikey
 
 ## IDE
