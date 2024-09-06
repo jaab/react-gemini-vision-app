@@ -110,26 +110,28 @@ Image Upload: Ensure that the public directory exists in the root of your projec
 Error Handling: If the AI service fails to analyze the image, an appropriate error message will be displayed.
 
 ## Contributing
-Contributions are welcome! To contribute:
+If you'd like to contribute to this project, please follow the standard GitHub workflow:
+
+fork the repository, create a new branch, make changes, and submit a pull request.
 
 ## Forking the Repository
 Fork the repository.
 
 Create a new branch 
+
 (git checkout -b feature/your-feature-name).
 
 Make your changes.
 
 Commit your changes
+
 (git commit -m 'Add some feature').
 
 Push to the branch 
+
 (git push origin feature/your-feature-name).
 
 Open a pull request.
-
-## Contributing
-If you'd like to contribute to this project, please follow the standard GitHub workflow: fork the repository, create a new branch, make changes, and submit a pull request.
 
 Feel free to customize the content of the README file based on your project's specific details and features. The goal is to provide clear and concise information to help users and contributors understand how to use and contribute to your application.
 
