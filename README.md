@@ -137,6 +137,9 @@ Feel free to customize the content of the README file based on your project's sp
 
 
 ## Who, When, Why?
+
 👨🏾‍💻 Author: Jaab
+
 📅 Version: 1.x
+
 📜 License: This project is licensed under the MIT License
