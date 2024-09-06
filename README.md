@@ -52,7 +52,7 @@ package.json: Contains project dependencies and scripts.
 .env: Environment variables (API keys, ports, etc.). (Not included in version control, add .env file manually)
 
 ## Setup and Running the Project
-1. Clone the Repository
+## 1. Clone the Repository
 
 bash
 
@@ -62,7 +62,7 @@ git clone https://github.com/jaab/react-gemini-vision-app.git
 
 cd react-gemini-vision-app
 
-2. Install Dependencies
+## 2. Install Dependencies
 
 Navigate to the project directory and install the required dependencies:
 
@@ -72,7 +72,7 @@ Copy code
 
 npm install
 
-3. Set Up Environment Variable
+## 3. Set Up Environment Variable
 
 Create a .env file in the root directory and add your Google API key:
 
@@ -82,11 +82,11 @@ Copy code
 
 GOOGLE_API_KEY=your_google_api_key_here
 
-4. Run the Project
+## 4. Run the Project
 
 Start the Express.js server:
 
-## bash
+bash
 
 Copy code
 
@@ -94,13 +94,12 @@ npm run start:backend
 
 In another terminal window, start the React development server:
 
-## bash
-
+bash
 Copy code
-
 npm run start:frontend
 
-Navigate to http://localhost:3000 in your browser to use the application.
+Navigate to http://localhost:3000 
+in your browser to use the application.
 
 ## Additional Notes
 Image Upload: Ensure that the public directory exists in the root of your project for storing uploaded images.
