@@ -92,10 +92,13 @@ Copy code
 
 npm run start:backend
 
-In another terminal window, start the React development server:
+In another terminal window, 
+start the React development server:
 
 bash
+
 Copy code
+
 npm run start:frontend
 
 Navigate to http://localhost:3000 
@@ -106,20 +109,22 @@ Image Upload: Ensure that the public directory exists in the root of your projec
 
 Error Handling: If the AI service fails to analyze the image, an appropriate error message will be displayed.
 
-Contributing
+## Contributing
 Contributions are welcome! To contribute:
 
 ## Forking the Repository
-
 Fork the repository.
 
-Create a new branch (git checkout -b feature/your-feature-name).
+Create a new branch 
+(git checkout -b feature/your-feature-name).
 
 Make your changes.
 
-Commit your changes (git commit -m 'Add some feature').
+Commit your changes
+(git commit -m 'Add some feature').
 
-Push to the branch (git push origin feature/your-feature-name).
+Push to the branch 
+(git push origin feature/your-feature-name).
 
 Open a pull request.
 
