@@ -13,7 +13,9 @@ Clear and Re-upload: Users can clear the current image and upload a new one for 
 To run this project, you'll need the following software installed on your machine:
 
 Node.js (v14 or later)
+
 npm (v6 or later)
+
 Git (for version control)
 
 Google API Key (for accessing Google Generative AI) : https://aistudio.google.com/app/apikey
@@ -22,8 +24,11 @@ Google API Key (for accessing Google Generative AI) : https://aistudio.google.co
 You can use any text editor or integrated development environment (IDE) of your choice. Some popular options include:
 
 Visual Studio Code (Recommended)
+
 WebStorm
+
 Sublime Text
+
 Atom
 
 ## Files and Directories
@@ -43,51 +48,71 @@ package.json: Contains project dependencies and scripts.
 
 ## Setup and Running the Project
 1. Clone the Repository
+
 bash
+
 Copy code
+
 git clone https://github.com/jaab/react-gemini-vision-app.git
 
 cd react-gemini-vision-app
 
 2. Install Dependencies
+
 Navigate to the project directory and install the required dependencies:
 
 bash
+
 Copy code
+
 npm install
 
-3. Set Up Environment Variables
+3. Set Up Environment Variable
+
 Create a .env file in the root directory and add your Google API key:
 
 plaintext
+
 Copy code
+
 GOOGLE_API_KEY=your_google_api_key_here
+
 4. Run the Project
+
 Start the Express.js server:
 
 ## bash
+
 Copy code
+
 npm run start:backend
 
 In another terminal window, start the React development server:
 
 ## bash
+
 Copy code
+
 npm run start:frontend
 
 Navigate to http://localhost:3000 in your browser to use the application.
 
 ## Additional Notes
 Image Upload: Ensure that the public directory exists in the root of your project for storing uploaded images.
+
 Error Handling: If the AI service fails to analyze the image, an appropriate error message will be displayed.
+
 Contributing
 Contributions are welcome! To contribute:
 
 ## Forking the Repository
+
 Fork the repository.
+
 Create a new branch (git checkout -b feature/your-feature-name).
 
 Make your changes.
+
 Commit your changes (git commit -m 'Add some feature').
 
 Push to the branch (git push origin feature/your-feature-name).
