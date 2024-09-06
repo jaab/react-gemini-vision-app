@@ -39,7 +39,7 @@ package.json: Contains project dependencies and scripts.
 bash
 Copy code
 git clone https://github.com/jaab/react-gemini-vision-app.git
-cd your-repo-name
+cd react-gemini-vision-app
 2. Install Dependencies
 Navigate to the project directory and install the required dependencies:
 
