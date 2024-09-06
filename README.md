@@ -28,11 +28,17 @@ Atom
 
 ## Files and Directories
 /public: Contains static files like uploaded images.
+
 /src: Contains the React components and CSS files.
+
 App.js: Main React component handling the UI logic.
+
 index.css: Stylesheet for the application.
+
 server.js: Express.js backend server handling file uploads and AI requests.
+
 package.json: Contains project dependencies and scripts.
+
 .env: Environment variables (API keys, ports, etc.). (Not included in version control, add .env file manually)
 
 ## Setup and Running the Project
@@ -40,13 +46,16 @@ package.json: Contains project dependencies and scripts.
 bash
 Copy code
 git clone https://github.com/jaab/react-gemini-vision-app.git
+
 cd react-gemini-vision-app
+
 2. Install Dependencies
 Navigate to the project directory and install the required dependencies:
 
 bash
 Copy code
 npm install
+
 3. Set Up Environment Variables
 Create a .env file in the root directory and add your Google API key:
 
@@ -59,11 +68,13 @@ Start the Express.js server:
 ## bash
 Copy code
 npm run start:backend
+
 In another terminal window, start the React development server:
 
 ## bash
 Copy code
 npm run start:frontend
+
 Navigate to http://localhost:3000 in your browser to use the application.
 
 ## Additional Notes
@@ -75,9 +86,12 @@ Contributions are welcome! To contribute:
 ## Forking the Repository
 Fork the repository.
 Create a new branch (git checkout -b feature/your-feature-name).
+
 Make your changes.
 Commit your changes (git commit -m 'Add some feature').
+
 Push to the branch (git push origin feature/your-feature-name).
+
 Open a pull request.
 
 ## Contributing
