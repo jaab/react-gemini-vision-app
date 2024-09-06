@@ -1,12 +1,17 @@
 ## Image Analysis with Google Generative AI
 
 ## Overview
-This project is a web application that allows users to upload an image and ask multiple questions about its content. The app utilizes Google Generative AI to analyze the image and provide textual responses based on the queries. The application is built using 'React' for the frontend and 'Express.js' for the backend.
+This project is a web application that allows users to upload an image and ask multiple questions about its content. The app utilizes Google Generative AI to analyze the image and provide textual responses based on the queries.
+
+The application is built using 'React' for the frontend and 'Express.js' for the backend.
 
 ## Features
 Upload Image: Users can upload an image to the server.
+
 Ask Multiple Questions: Users can input multiple questions about the uploaded image and receive AI-generated answers.
+
 Surprise Me Feature: Users can generate random questions about the image.
+
 Clear and Re-upload: Users can clear the current image and upload a new one for further analysis.
 
 ## Software Requirements
